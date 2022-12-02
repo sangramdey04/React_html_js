@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+} */
+.grid{
+    margin: 20px;
+    padding: 30px;
+    max-width: 130rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    /* gap: 1.6rem; */
+
+}
+.card{
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid gray;
+}

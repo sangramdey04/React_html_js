@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            margin: auto;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(96, 94, 94);
+            
+        
+        }
+        .sign{
+            /* margin: auto; */
+            height:300px;
+            width: 300px;
+            display: flex;
+            /* vertically */
+            align-items: center; 
+            /* horizontally */
+            justify-content: center;
+        
+            /* display: none; */
+            background-color: rgb(106, 73, 137);
+            box-shadow: 10px 10px 6px black;
+        }
+
+        label{
+            font-weight: bold;
+            font-size: medium;
+            color: rgb(199, 204, 203);
+            
+        }
+       input{
+        padding: 5px;
+        margin: 6px 0;
+        
+       }
+    button{
+        padding: 0 2px;
+        margin: 6px 0;
+        font-weight: bold;
+        font-size: medium;
+    }
+    #btn:hover{
+       
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+.popup{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            display: none;
+
+}
+.popup p{
+
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(61, 218, 95);
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+        
+        <div class="sign"id="sign">
+           
+        <form>
+            <center style="color:rgb(199, 204, 203) ;"><h2>Sign Up</h2></center><br>
+            <label for="fname">Name </label><br>
+            <input type="text" id="fname" placeholder="Your Name" required><br>
+            <label for="fmail">Email </label><br>
+            <input type="email" id="fmail" placeholder="abc12@gmail.com" required><br>
+            <label for="fcont">Contact</label><br>
+            <input type="text" id="fcont" placeholder="+91-0000000000" required><br>
+            <center>  
+                <!-- <button id="btn">Submit</button> -->
+             <b> 
+                 <input type="button" value="Log In" id="btn"></b> 
+               
+            </center>
+          
+        </form>
+    </div>
+
+    <div class="popup"id="popup">
+        <p>Successfully Logged In.</p><br>
+      
+        <br>
+        <center>  
+            <b> 
+                <input type="button" value="Log out" id="popbtn"></b> 
+        </center>
+
+    </div>
+    </div>
+     
+
+    <script src="signUP.js"></script>
+</body>
+</html>

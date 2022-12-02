@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 40%;
+}
+$bg-color1:rgb(22, 38, 48);
+$bg-color2:rgb(87, 183, 87);
+ 
+@mixin flexprop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+@mixin lettercode($par1) {
+    color:$bg-color1 ;
+    font-size: 10rem +2rem;  //operator
+    letter-spacing: $par1;
+    text-transform: capitalize;   
+    &:hover{
+        color: rgb(234, 168, 25);
+    } 
+    text-shadow: -3px 3px 3px rgb(50, 48, 48);
+}
+
+ 
+
+body{
+    @include flexprop;
+    width: 100vw;
+    height: 100vh;
+   
+   
+    background:$bg-color2;
+
+    h3{
+       @include lettercode(1rem);
+        // &:hover{
+        //     color: rgb(167, 16, 16);
+        // }
+    }
+    p{
+        @include lettercode(0.4rem);
+        // &:hover{
+        //     color: black;
+        // }
+        // @extend h3;   //inheritance prop.
+    }
+   
+
+}
+@media screen and (max-width:480px) {
+    body{
+        background:gray;
+        
+        
+    }
+    
+}

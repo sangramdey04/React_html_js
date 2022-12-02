@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Asynchronous module:9</h2>
+    <button onclick="call()">Click</button>
+    <Script>
+        
+        // setTimeout(() => {
+            
+        // for(i=0;i<45;i++){
+            
+        //     console.log(`series is:${i}`);
+
+        // }
+            
+        // },  3000);
+
+        // console.log( "Done" );
+//-------------------------------------------
+
+     setTimeout(function run(){
+            for(i=0;i<4500;i++)
+            console.log(i);
+            
+        }, 552)
+
+
+        function call(){
+            console.log("button clicked");
+        }
+
+
+        console.log(1);
+        
+        // run();
+        
+        console.log(3);
+
+    </Script>
+</body>
+</html>

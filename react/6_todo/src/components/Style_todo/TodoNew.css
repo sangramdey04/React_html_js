@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: beige; */
+}
+.main-div{
+    background-color: rgb(178, 67, 90);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+#fig{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.additems{
+    display: flex;
+  align-items: center;
+margin: 20px 0  ;
+
+    
+
+}
+.eachitem{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eachitem span{
+margin-top: 5px;
+
+ 
+
+}
+.showitems{
+  
+    /* height: 38px;
+    width: auto; */
+    /* padding: 0 8px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.eachitem{
+    background-color: bisque;
+    border-radius: 10px;
+    width: 340px;
+    padding: 5px 8px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* display: none; */
+}
+.additems input{
+    padding: 15px;
+    width: 300px;
+    border: 0;
+    margin: 0 3px;
+    background-color: rgb(14, 14, 32);
+    caret-color: aliceblue;
+    color: aliceblue;
+    border-radius: 10px;
+     
+    
+}
+.additems input::placeholder{
+    color: aliceblue;
+}
+.additems input:focus{
+    outline: none;
+}
+.additems span{
+    background-color: rgb(142, 169, 53);
+    padding: 10px;
+    border: 0;
+    margin: 0 6px;
+    font-weight: bold;
+    border-radius: 12px;
+}
+.additems span:hover{
+    cursor: pointer;
+    color: rgb(195, 221, 228);
+    /* background-color: rgb(230, 48, 16); */
+}
+.eachitem span:hover{
+    cursor: pointer;
+    /* color: rgb(195, 221, 228); */
+    /* background-color: rgb(230, 48, 16); */
+}
+
+/* .crossLine{
+    text-decoration: line-through;
+} */

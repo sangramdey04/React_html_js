@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 40%;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(87, 183, 87);
+}
+body h3 {
+  color: rgb(22, 38, 48);
+  font-size: 12rem;
+  letter-spacing: 1rem;
+  text-transform: capitalize;
+  text-shadow: -3px 3px 3px rgb(50, 48, 48);
+}
+body h3:hover {
+  color: rgb(234, 168, 25);
+}
+body p {
+  color: rgb(22, 38, 48);
+  font-size: 12rem;
+  letter-spacing: 0.4rem;
+  text-transform: capitalize;
+  text-shadow: -3px 3px 3px rgb(50, 48, 48);
+}
+body p:hover {
+  color: rgb(234, 168, 25);
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: gray;
+  }
+}/*# sourceMappingURL=sass.css.map */

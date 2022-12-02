@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>
+        Marker
+    </title>
+<style>
+ #map {
+     
+ height: 700px;
+}
+</style>
+</head>
+<body>
+<div style="padding: 15px;font-size: larger; font-weight: bold;" id="navbar"><span><center>Google Maps</span></center></div>
+ <hr>
+<div id="map"></div>
+<script>
+ var map;
+//  function initMap() {
+//     var options={
+//         center: {lat:  22.5418249, lng: 88.3491414},
+//         zoom: 15
+//     }
+//  var map = new google.maps.Map(document.getElementById('map'), options);
+
+//  var marker = new google.maps.Marker({
+//     position:{lat: 22.5418249, lng: 88.3491414},
+//     map:map,
+//  });
+
+
+// var info = new google.maps.InfoWindow({
+//     content:'<h2>Bit Canny Technologies</h2>'
+// });
+
+// marker.addListener('click',function(){
+//     info.open(map,marker);
+// });
+
+
+// }
+//
+
+function initMap(){
+    map = new google.maps.Map(document.getElementById("map"),{
+        center: {lat:  22.5418249, lng: 88.3491414},
+          zoom: 15
+    });
+   const marker= new google.maps.Marker({
+        position:{lat:  22.5418249, lng: 88.3491414},
+        map:map,
+        lable:"A",
+        title:"Bit Canny",
+        // draggable:true,
+        animation:google.maps.Animation.DROP
+    })
+}
+
+
+</script>
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCXtRy3ckDeH1csQyRe7cqvxEzZfj6ia0&callback=initMap"
+async defer></script>
+ 
+
+</body>
+</html>

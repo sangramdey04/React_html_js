@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    /* background-color: floralwhite; */
+}
+.navbar-expand-lg .navbar-collapse {
+    
+    margin-left: 30%;
+}
+/* .navbar{
+    padding: -1rem 1rem;
+} */
+ h1{
+    font-weight: bold;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+
+/* 
+ .main{
+    background: linear-gradient rgba(0,0,0,0.3),rgba(0,0,0,0.3),url( 'https://c0.wallpaperflare.com/preview/228/330/426/fitness-men-sports-gym.jpg') no-repeat;
+    background-size: cover;
+    height: 110vh;
+} */
+.main{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(image2/banner1.jpg);
+    
+    background-size:cover;
+    width: auto;
+    height: 100vh;
+
+}
+ .t{
+    color: rgb(249, 251, 253);
+    line-height: 40px;
+ }
+ .about,.gallary{
+    overflow: hidden;
+    /* padding: 50px 0px; */
+ }
+.cont1{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.i1{
+    box-shadow: 0px 3px 0px rgb(218, 63, 63);
+}
+.Healthy{
+    background-color: rgba(190, 194, 194, 0.655);
+    padding-bottom: 30px;
+}
+#healthy span{
+    color: rgb(227, 22, 22);
+    
+}
+ #healthy h2{
+    font-weight: bolder;
+ }
+ .s1{
+    box-shadow: -15px -15px 0px rgb(168, 15, 15);
+ }
+.mx-3:hover{
+    
+    font-weight:650;
+    
+ }
+#healthy button:hover{
+    box-shadow: 2px 4px 3px darkgray;
+ }
+ .bx1{
+    background-color: rgba(250, 250, 250, 0.824);
+     margin: 10px;
+    height: auto;
+    width: auto;
+    text-align: center;
+  
+    padding: 0px 18px;
+    box-shadow: 3px 5px 10px black;
+
+
+ }
+ .services{
+    overflow: hidden;
+    background-color: rgba(247, 250, 253, 0.845); 
+ }
+ .icon2 {
+    
+    margin: auto;
+    height: auto;
+    width: 38px;
+    margin-top: 40px;
+}
+ .BMI{
+    background-color: rgba(190, 194, 194, 0.655);
+    padding-bottom: 30px;
+
+ }
+ .bm1{
+    background-color: rgba(250, 250, 250, 0.982);
+    height: auto;
+    /* margin-left: 3px; */
+   
+   /* box-shadow: 3px 5px 10px black; */
+ }
+ .bmbt:hover{
+    box-shadow: 2px 4px 3px darkgray;
+
+ }
+ .gal{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+ }
+
+ .bx2{
+    background-color: rgba(250, 250, 250, 0.824);
+     margin: 10px;
+    height: 500px;
+    width: auto;
+    text-align: center;
+  
+    padding: 10px 18px;
+    box-shadow: 0px 5px 7px  black;
+ }
+ .expert{
+    overflow: hidden;
+ }
+ #admission{
+/* height: auto; */
+ height:auto;
+background-color: rgb(18, 18, 50);
+
+
+ }
+ #admission p{
+   font-size: smaller;
+ }
+ .jes{
+   height: auto;
+   width: auto;
+padding-top: 50px;
+ 
+
+   background-color: rgb(18, 18, 50);
+ }
+ #jes1{
+   height: 50px;
+   width: 50px;
+   padding-top: 10px;
+  
+ }
+ .jessica,.Blog{
+   overflow: hidden;
+ }
+ .price,.contact,.footer{
+   overflow: hidden;
+ }
+ #price:hover{
+   background-color:rgb(18, 18, 50);
+   color: azure;
+    
+ }
+ #contact{
+   height: auto;
+   width: auto;
+   display: flex;
+   margin: auto;
+   flex-wrap: wrap;
+   padding: 10px;
+
+ }
+.contact-form{
+   flex: 50%;
+ }
+ .form-control{
+   background-color: rgb(223, 226, 228);
+ }
+ .contact-map{
+   flex: 50%;
+ }
+
+ .Blog{
+   background-color: rgba(213, 218, 218, 0.655);
+   padding-bottom: 30px;
+}
+.ico{
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   align-items: center;
+ /* background-color: aliceblue; */
+ 
+   
+
+}
+.ico1{
+  
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   align-items: center;
+   height: 50px;
+   width: 50px;
+  background-color: aliceblue;
+ 
+   
+}
+  /* .contact-icon
+{
+   float: left;
+  margin: 20px;
+   
+}
+.footer-top .contact-info i {
+   font-size: 30px;
+   width: 60px;
+   height: 60px;
+   display: inline-block;
+   text-align: center;
+   padding-top: 15px;
+   background: #fff;
+   border-radius: 100%;
+} */
+ .footer{
+   height: auto;
+   width: auto;
+   background-color: black;
+   overflow: hidden;
+ }
+ /* .footer img{
+   background-color: aliceblue;
+
+ } */
+ .t2
+ {
+   display: flex;
+   /* margin: 22px 19px; */
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   /* padding-left: 450px; */
+}
+ .bottom{
+   display: flex;
+   margin: auto;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0 3px;
+ }
+ .btm1{
+   /* justify-content: left; */
+   /* margin-left: 40x; */
+   float: left;
+ }
+   .btm2 {
+ 
+       
+      list-style: none;
+      
+      /* float: right; */
+      
+  
+   padding-right: 4px;
+   
+      
+   }
+   .footer-top .contact-info i{
+      border-radius: 100%;
+      background-color: aliceblue;
+      height: 60px;
+      padding-top: 18px;
+      font-size: 20px;
+      display: inline-block;
+      width: 60px;
+      text-align: center;
+   }
+   .footer-top .contact-icon 
+   {
+   margin-right: 20px;
+   float: left;
+   }
+
+   .footer-top  .info h4{
+      font-size: 20px;
+      color: black;
+      text-transform: capitalize;
+   }
+   
+ 
+  
+
+ 
+  

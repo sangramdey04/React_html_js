@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Marker</title>
+    <style>
+     #map {
+     
+     height: 700px;
+    }
+    </style>
+</head>
+<body>
+    <div style="padding: 10px;font-size: larger; font-weight: bold;" id="navbar"><span><center>Google Maps</span></center></div>
+    <hr>
+   <div id="map"></div>
+   <script>
+    var map;
+    function initMap(){
+    map = new google.maps.Map(document.getElementById("map"),{
+        center: {lat:  22.5418249, lng: 88.3491414},
+          zoom: 15
+    });
+  var  marker = new google.maps.Marker({
+        position:{lat:  22.5418249, lng: 88.3491414},
+        map:map,
+        title:"Your Location",
+        animation:google.maps.Animation.BOUNCE,
+    });
+
+    google.maps.event.addListener(map,'click',(event)=>{
+        newMarker (event.latLng);
+    });
+
+    function newMarker(loc){
+     
+        if(marker!=null)
+        {
+            marker.setPosition(loc),
+            marker.setTitle("You are in your new location")
+        }
+
+    }
+}
+   </script>
+
+
+
+
+   
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCXtRy3ckDeH1csQyRe7cqvxEzZfj6ia0&callback=initMap"
+async defer></script>
+</body>
+</html>

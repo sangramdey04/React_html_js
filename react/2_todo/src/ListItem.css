@@ -1,0 +1,30 @@
+.list{
+    color: aliceblue;
+    width: 300px;
+    background-color: brown;
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+    height: 40px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+.list p{
+    padding: 5px;
+    margin: 10px;
+    display: inline;
+    
+    font-weight: bold;
+    position: relative;
+    font-size: medium;
+}
+.list span:hover{
+    cursor: pointer; 
+
+   
+}
+.strikeItem{
+    text-decoration: line-through;
+    
+}

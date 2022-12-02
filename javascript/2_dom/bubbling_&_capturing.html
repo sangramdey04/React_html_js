@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bubbling and Capturing</title>
+</head>
+<body>
+
+    <center><h2>Bubbling and Capturing</h2></center>
+    <p id="parent">
+        Lorem ipsum <strong id="child">dolor</strong>  sit amet consectetur adipisicing elit. 
+        Tempore sit odit velit nisi exercitationem totam eum minima. 
+        Illo voluptatum laboriosam quam ut quis at fugiat atque error 
+        fugit ad laborum neque vitae, 
+        obcaecati minus sunt odio eum tempora magnam necessitatibus iusto, 
+        incidunt expedita nemo soluta! Magni repellat quod obcaecati! Exercitationem!
+
+    </p>
+
+    <script>
+        let parent = document.getElementById("parent");
+        let child = document.getElementById("child");
+
+        //for bubbling   (by default false) child ->parent
+
+
+        // parent.addEventListener('click',()=>{
+        //     console.log("I am Parent");
+        // });
+
+        // child.addEventListener('click',()=>{
+        //     console.log("I am Child");
+        // });
+
+
+        //for capturing parent ->child
+
+        parent.addEventListener('click',()=>{
+            console.log("I am Parent");
+        },true);
+
+        child.addEventListener('click',()=>{
+            console.log("I am Child");
+        });
+    </script>
+</body>
+</html>

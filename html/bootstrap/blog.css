@@ -1,0 +1,26 @@
+ /* .img-fluid{
+    height: 700px;
+    width: 100%;
+ } */
+ body{
+   background-color: rgba(226, 230, 234,0.3);
+ }
+ .fw-light{
+    text-align: center;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ #f1 {
+   padding-top: 3rem!important;
+   padding-bottom: 3rem!important;
+   padding-left: 17rem;
+}
+.footer{
+   display: flex;
+   justify-content:center;
+   margin: auto;
+   align-items: center;
+}
+ 
+ 

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: beige; */
+}
+.main-div{
+    background-color: rgb(62, 59, 59);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.addItems{
+    display: flex;
+  align-items: center;
+margin: 22px 0  ;
+
+ 
+}
+h2{
+    color: aliceblue;
+    font-weight: 400px;
+}
+.addItems input{
+    padding: 15px;
+    width: 300px;
+    border: 0;
+    margin: 0 3px;
+    background-color: rgb(14, 14, 32);
+    caret-color: aliceblue;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow:  2px 5px 6px rgb(22, 21, 21);
+    font-weight: bolder;
+    outline: 0rem;
+    
+}
+.addItems span{
+    background-color: rgb(45, 208, 132);
+    padding: 10px;
+    border: 0;
+    margin: 0 6px;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow:  3px 5px 6px rgb(22, 21, 21);
+}
+.addItems input::placeholder{
+    color: aliceblue;
+    
+    
+}
+.eachItem{
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(29, 55, 138);
+    border-radius: 10px;
+    width: 340px;
+    padding: 8px 8px;
+    margin-top: 6px ;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:  3px 5px 6px rgb(22, 21, 21);
+}
+.showItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.addItems span:hover{
+    cursor: pointer;
+    color: rgb(233, 230, 230);
+    /* background-color: rgb(230, 48, 16); */
+}
+.eachItem span:hover{
+    cursor: pointer;
+    color: rgb(195, 221, 228);
+    /* color: rgb(195, 221, 228); */
+    /* background-color: rgb(230, 48, 16); */
+}
+.eachItem:hover{
+    background-color: brown;
+   color: aliceblue;
+}
+.remove{
+    margin: 15px 0;
+    padding: 10px;
+  
+}
+.remove button{
+    padding: 10px;
+    background-color: rgb(8, 126, 26);
+    outline: none;
+   font-weight: bolder;
+    border: 0;
+    border-radius: 10px;
+    box-shadow:  3px 5px 6px rgb(22, 21, 21);
+}
+.remove button:hover{
+    cursor: pointer;
+    color: aliceblue;
+    background-color: firebrick;
+}

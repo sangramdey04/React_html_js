@@ -22,6 +22,7 @@ export default function UseMemo() {
                                      
             return count*2;
     },[count])
+    
 
 
   return (

@@ -44,7 +44,7 @@
 
 
 
-let arr=[1,2,3,4,5,6]
+// let arr=[1,2,3,4,5,6]
 // arr.forEach(element=> {
 //     console.log(element)
 // });
@@ -121,7 +121,7 @@ let arr=[1,2,3,4,5,6]
 
 
 // what will be the output ?
-// console.log(0.1 + 0.2 == 0.3) // false
+// console.log(0.1 + 0.2 ==0.3) // false
 
 
 
@@ -142,4 +142,16 @@ let arr=[1,2,3,4,5,6]
 // console.log(0.3==0.3);//true
 // console.log(0.3000000000004 ==0.3);//false
 
-console.log(1+"1");//11
+// console.log(1+"1");//11
+
+//object length
+// const obj ={
+//     id:1,
+//     name:"ssss",
+//     num:23,
+//     id2:4
+    
+// }
+// console.log(
+//     Object.keys(obj).length
+// );

@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+*{
+  background-color: rgb(183, 176, 168);
+}
+.error{
+  color: red;
+  text-align: left;
+  margin: 8px;
+}
+ 
+.elements{
+ margin: 15px
+}
+input{
+  padding: 4px 10px;
+  width: 500px;
+  height: 50px;
+  border: 0;
+  outline: none;
+  box-shadow: 4px 6px 7px rgb(46, 45, 45);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  caret-color: rgb(195, 200, 206);
+  color: rgb(232, 232, 242);
+  background-color: rgb(69, 69, 76);
+}
+#reg_btn,#lgn_btn{
+  background-color:rgb(194, 97, 97);
+  width: 100px;
+  height: 45px;
+  padding-bottom: 2px;
+  font-weight: bold;
+   border-radius: 10px;
+   margin-top: 5px;
+  border: 1.5px solid black;
+  box-shadow: 4px 6px 7px rgb(46, 45, 45);
+}
+ #login{
+  color: rgb(12, 147, 53);
+ }
+ 
+input::placeholder{
+color: rgb(43, 118, 184);
+}
+#reg_btn:hover{
+  background-color: green;
+  cursor: pointer;
+}
+#lgn_btn:hover{
+  background-color: rgb(47, 60, 199);
+  cursor: pointer;
+}
+#spn_login_btn{
+  color: rgb(212, 97, 25);
+  font-weight: bolder;
+}
+#spn_login_btn:hover{
+  cursor: pointer;
+  color: blue;
+}

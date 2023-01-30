@@ -1,0 +1,55 @@
+*{
+    background-color: rgb(196, 185, 185);
+}
+
+
+.calc{
+    width: 320px;
+    margin: 100px auto;
+ 
+}
+.calc2{
+    width: 320px;
+    height: 470px;
+    border: 20px solid rgb(14, 14, 14);
+}
+#expression{
+    background-color: rgb(34, 113, 162);
+}
+#expression1{
+    background-color: green;
+}
+#expression2{
+    background-color: rgb(152, 20, 20);
+}
+#expression3{
+    background-color: rgb(92, 89, 89);
+}
+#ans{
+    background-color: rgb(219, 213, 213);
+    padding: 10px;
+    font-size: 35px;
+    width: 295px;
+    height: 45px;
+    
+    text-align: right;
+    border: 3px slid rgb(224, 218, 218);
+    margin-bottom: 2px;
+}
+.btncolour{
+    background-color: rgb(28, 30, 30);
+    height: 80px;
+    width: 80px;
+  
+    color: white;
+    font-size: 30px;
+    border: 1px solid rgb(237, 231, 231);
+    float: left;
+}
+.btn1{
+    width: 160px;
+}
+.btncolour:hover{
+cursor: pointer;
+background-color: rgb(53, 52, 52);
+}

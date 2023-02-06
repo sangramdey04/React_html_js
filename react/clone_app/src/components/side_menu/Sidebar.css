@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    /* position: relative; */
+    background-color: rgb(59, 58, 57);
+    color: white;
+    padding: 20px;
+
+    position:sticky;
+    top: 0;
+}
+ .sidebarmid{
+    /* padding: 30px; */
+   
+    padding-top: 60px;
+    padding-bottom: 250px;
+     
+    height: 75%;
+    /* width: auto; */
+}
+.sidebarbottom{
+    /* padding: 20px; */
+    /* margin-left: 10px; */
+    margin-top: 30px;
+     
+    
+}
+.sidebarmid >ul{
+    color: rgb(246, 239, 239);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: larger;
+    font-weight: bolder;
+    gap: 40px;
+    letter-spacing: 1px;
+   
+   
+     
+    
+}
+/* .sidebarmid >ul>link>li{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+ 
+} */
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+ .link:hover{
+    color: rgb(194, 187, 187);
+    cursor: pointer;
+}
+.sidebarbottom>button{
+    /* padding: 10px; */
+    color: white;
+    height: 40px;
+    width: 120px;
+   
+}
+.sidebarbottom>button>span{
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.sidebarbottom>button{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: white;
+    gap: 10px;
+   
+    background-color: transparent;
+    border: 1px solid red;
+}
+.sidebarbottom>button:hover{
+    background-color: rgb(164, 23, 23);
+    cursor: pointer;
+    box-shadow:2px 2px 2px 3px rgba(27, 26, 26, 0.2);
+}
+.theme{
+
+}
+ 

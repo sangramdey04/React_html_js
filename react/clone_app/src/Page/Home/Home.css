@@ -1,0 +1,11 @@
+.home{
+    display: flex;
+}
+.homecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+
+}

@@ -17,7 +17,7 @@ export default function UseMemo() {
     //using memo we can prevent this
 
     const memoMultiCount = useMemo(  function multCount(){
-        console.warn("I am function"); //this function don't get called when clicked updateitem button
+        console.log("I am function"); //this function don't get called when clicked updateitem button
                                     // (see console)
                                      
             return count*2;

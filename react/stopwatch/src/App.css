@@ -1,0 +1,139 @@
+/* body {
+  background:#2C3E50;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main-section {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.clock-holder {
+  width: 100%;
+  background: #fff;
+  margin: 30px auto;
+  position: relative;
+}
+
+
+.stopwatch {
+  padding: 60px 0px;
+  text-align: center;
+}
+.stopwatch-card{
+  font-size: large;
+}
+.buttons{
+   padding: 10px;
+   margin: 5px;
+   display: flex;
+  justify-content: center;
+   gap: 10px;
+}
+.btn{
+  cursor: pointer;
+  padding: 8px;
+}
+
+  */
+
+
+
+
+
+
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    background-color: rgb(30, 48, 63);
+     
+ }
+ .App{
+  max-width: fit-content;
+    padding: 20px;
+    background-color: rgb(206, 220, 234);
+    border: 0;
+    box-shadow:  10px 15px 8px rgb(11, 11, 11);
+    border-radius: 20px;
+
+ }
+ .name{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+ }
+
+.time>span{
+    font-weight: bolder;
+    font-size: larger;
+     padding: 10px;
+    
+    /* background-color: rgb(59, 160, 210); */
+    background-color: transparent;
+    border: 1px solid rgb(63, 124, 155);
+    box-shadow:  2px 5px 6px rgb(11, 11, 11);
+}
+.buttons{
+    
+    display:flex ;
+    justify-content: center;
+}
+button{
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+     
+}
+.start{
+     border: 1px solid green;
+     color: green;
+     font-weight: bold;
+}
+.start:hover{
+    background-color: green;
+    color: black;
+}
+
+.pause{
+       border: 1px solid rgb(202, 180, 57);
+     color: rgb(202, 180, 57);
+     font-weight: bold;
+
+}
+.pause:hover{
+    background-color: rgb(202, 180, 57) ;
+     color: black;
+}
+.resume{
+     border: 1px solid rgb(100, 80, 216);
+     color: rgb(100, 80, 216);
+     font-weight: bold;
+}
+.resume:hover{
+     background-color: rgb(100, 80, 216) ;
+     color: black;
+}
+.reset{
+      border: 1px solid rgb(103, 101, 101);
+     /* color: rgb(32, 30, 30); */
+     font-weight: bold;
+}
+/* .reset:hover{
+
+    background-color: rgb(202, 57, 74) ;
+     color: black;
+} */

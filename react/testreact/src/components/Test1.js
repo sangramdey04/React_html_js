@@ -81,34 +81,52 @@
 // },[])
 
 
-import React from "react"
+// import React from "react"
 
 
-class SomeClass extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isBtnClicked: false,
-    };
-  }
+// class SomeClass extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       isBtnClicked: false,
+//     };
+//   }
  
  
-  handleClick (e) {
-    this.setState({ isBtnClicked: true });
-  }
+//   handleClick (e) {
+//     this.setState({ isBtnClicked: true });
+//   }
  
  
-  render() {
-    return (
-      <>
-        {this.state.isBtnClicked ? 'Btn Clicked' : "Btn Didn't Clicked"}
-        <button onClick={this.handleClick}>click me</button>
-      </>
-    );
-  }
- }
+//   render() {
+//     return (
+//       <>
+//         {this.state.isBtnClicked ? 'Btn Clicked' : "Btn Didn't Clicked"}
+//         <button onClick={this.handleClick}>click me</button>
+//       </>
+//     );
+//   }
+//  }
 
- export default SomeClass;
+//  export default SomeClass;
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
 
 
 

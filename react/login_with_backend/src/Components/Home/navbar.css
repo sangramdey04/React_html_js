@@ -1,0 +1,37 @@
+.linktext{
+    text-decoration: none;
+} 
+.bar{
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+ 
+ 
+.welcome{
+   
+    display: flex;
+    gap: 9px;
+    align-items: center;
+  
+   
+}
+.welcome>span{
+    font-weight: bolder;
+    color: brown;
+    padding-left: 5px;
+}
+.logout{
+    display: flex;
+    align-items: center;
+  
+}
+
+ 

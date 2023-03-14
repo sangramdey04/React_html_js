@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 export default function Use_ref_hook() {
-    const [ count,setCount]= useState(0)
+    const [count,setCount]= useState(0)
     const prevnum = useRef(0);
 
     useEffect(()=>{

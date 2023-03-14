@@ -1,0 +1,23 @@
+.formbody_reg{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.formstyl_reg{
+    margin-top: 150px;
+    height: auto;
+    width:  40vw;
+    border: 1px solid black;
+    background-color: rgb(179, 184, 180);
+    padding: 20px;
+    margin: 100px;
+    padding-bottom: 10px;
+    padding-bottom: 30px;
+  }
+  .formstyl_reg>Form>h2{
+    color: rgb(247, 249, 247);
+
+  }

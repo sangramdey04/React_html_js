@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import {useState} from "react";
 import Axios from "axios";
 import { useNavigate } from "react-router-dom";
+import "./Register.css"
 
 export default function Register() {
 
@@ -72,7 +73,7 @@ const login =()=>{
 
   return (
     <>
-    
+    <div className="formbody_reg">
     <div className="formstyl_reg">
    <div>  {success} </div>
 
@@ -106,11 +107,13 @@ const login =()=>{
         <Button variant="primary" type="submit" onClick={register}>
           Register
         </Button>
-        <span> or </span>
+        <center><span> or </span></center>
+        
         <Button variant="primary" type="submit" onClick={login}>
           Log In
         </Button>
       </Form>
+      </div>
       </div>
     </>
   );

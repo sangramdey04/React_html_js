@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 
 export default function Use_state_hook() {
     const [count,setCount]= useState(0);
+     
     const Incre =()=>{
      
         // setCount(count=>count+10);  // this will return the sum of all incremnets
@@ -14,21 +15,25 @@ export default function Use_state_hook() {
         // setCount( count+10);
         // setCount( count+20);
 
-        setCount(count=>count+1)
        
+        setCount(count=>count+1)
         
     }
     const Decre =()=>{
         if(count!==0){     
-
             setCount(count=>count-1)
         }
 
+    }
+    const prev = ()=>{
+        setCount(count=>count)
+        return count;
     }
 
   return (
     <>
         <h1> Count:{count}  </h1>
+        <h1> Prev Count:{prev}  </h1>
         <button onClick={Incre}> Increment  </button> <br />
         <button onClick={Decre}> Decrement  </button> <br />
 

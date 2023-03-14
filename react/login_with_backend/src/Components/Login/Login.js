@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import {useState} from "react";
 import { useNavigate } from "react-router-dom";
- 
+import "./Login.css" 
 import Axios from "axios";
  
 
@@ -78,7 +78,7 @@ export default function Login() {
            {error ?? <p >{error}</p>}
         </div>
       ):(
-
+          <div className="formbody">
         <div className="formstyl">
     
         <Form>
@@ -99,11 +99,12 @@ export default function Login() {
           <Button variant="primary" type="submit" onClick={Login}>
             Log In
           </Button>    
-            <span> or </span>
+          <center><span> or </span></center>
           <Button variant="primary" type="submit" onClick={signup}>
             Sign Up
           </Button>
         </Form>
+        </div>
         </div>
       )
     }

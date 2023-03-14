@@ -1,8 +1,11 @@
 import React, { useEffect,useState } from 'react'
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
- 
-export default function Home(props) {
+import  Post_comp from './card/Post_comp';
+import Nav_bar from './Nav_bar';
+//  import Post from './Post/Post';
+ import "./Home.css"
+export default function Home() {
   const[name,setName]=useState("");
 
 
@@ -18,28 +21,32 @@ export default function Home(props) {
     if(doc){
       navigate("/")
       setName(JSON.parse(doc).name)
+      console.log(name);
       }else{
         navigate("/login");
       }
 
   },[])
 
-const logout=(e)=>{
-  e.preventDefault();
-  // document.cookie = "userinfo=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"
-  localStorage.clear();
-  navigate("/login")
-}
+
 
 
   return (
+    <>
+    <Nav_bar/>
     <div className='home'>
-             
-        <h2>   Welcome {name} !🙋‍♂️ </h2> <br />
+        {/* <h2>   Welcome  !🙋‍♂️ </h2> <br /> */}
+        <div className="postcontainer">
 
-        <Button variant="outline-danger" onClick={logout}>Log Out</Button>
+          <Post_comp/>
+        </div>
+    
+          
+
+        {/* <Button variant="outline-danger" onClick={logout}>Log Out</Button> */}
 
 
     </div>
+    </>
   )
 }

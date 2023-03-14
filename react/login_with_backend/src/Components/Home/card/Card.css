@@ -1,0 +1,22 @@
+.card_comp{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+     
+}
+.cardcontainer{
+    margin-top: 70px;
+
+}
+.cardbody{
+    background-color: rgb(174, 170, 49);
+    border: 0;
+    font-weight: bold;
+    box-shadow: 7px 9px 8px #3a2525;
+    color: aliceblue;
+}

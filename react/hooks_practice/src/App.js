@@ -8,9 +8,9 @@ import Use_state_hook from "./components/Use_state_hook"
 function App() {
   return (
     <div className="App">
-     {/* <Use_state_hook/> */}
+     <Use_state_hook/>
      {/* <Use_ref_hook/> */}
-     <Use_reducer_hook/>
+     {/* <Use_reducer_hook/> */}
     </div>
   );
 }

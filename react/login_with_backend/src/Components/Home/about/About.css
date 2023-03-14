@@ -1,0 +1,27 @@
+.aboutcont{
+    position:absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    /* margin-top: 80px; */
+}
+.aboutcont>h2{
+    color: black;
+}
+.aboutcont>hr{
+   height: 15px;
+   font-weight: bolder;
+    width: 80px;
+    color: brown;
+}
+.para{
+    width: 60%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   color: gray;
+
+}
